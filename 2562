@@ -1,0 +1,10 @@
+idx = 1 
+m = 0 
+for i in range(9):
+    t = int(input()) 
+    if m < t:
+      m = t
+      midx= idx
+
+    idx =  idx+1
+print(m, idx)
