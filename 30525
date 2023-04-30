@@ -1,0 +1,11 @@
+l = [0 for i in range (42)]
+for i in range(10):
+    idx = int(input())
+    idx =  idx % 42
+    l[idx] = 1
+    
+for i in range(1,41):
+    c = sum(l)
+print(c)
+       
+    
